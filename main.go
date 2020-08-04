@@ -41,4 +41,5 @@ func main() {
 			Body:        []byte(body),
 		})
 	failOnError(err, "Failed to publish a message")
+	log.Println("Message published")
 }
